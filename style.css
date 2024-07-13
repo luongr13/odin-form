@@ -84,7 +84,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1;
+    flex: none;
     text-align: center;
     /* border: solid blue 1px; */
 }
@@ -187,3 +187,9 @@ label {
     font-style: italic;
   }
   
+
+  @media (max-width: 1125px) {
+    .btn-row {
+        justify-content: center;
+    }
+  }

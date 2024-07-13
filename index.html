@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Odin Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div>
+                <img src="./images/logo.png" height="300" alt="odin logo">
+            </div>
+            <h1 class="ubuntu-bold">Odin Form</h1>
+        </div>
+        <div class="right">
+            <h2 class="center ubuntu-medium">Create Account</h2>
+            <div class="center">All fields marked with an asterisk (*) are required.</div>
+            
+            <form action="example.com/path" method="post">
+                <div class="row">
+                    <div class="child">
+                        <label for="first_name">First Name*</label>
+                        <input type="text" id="first_name" placeholder="John" required>
+                    </div>
+                    <div class="child">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name" placeholder="Smith">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="child">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" placeholder="me@example.com" required>
+                    </div>
+                    <div class="child">
+                        <label for="phone_num">Phone Number</label>
+                        <input type="tel" id="phone_num">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="child">
+                        <label for="pw">Password*</label>
+                        <input type="text" id="pw" required>
+                    </div>
+                    <div class="child">
+                        <label for="confirm-pw">Confirm Password*</label>
+                        <input type="text" id="confirm-pw">
+                    </div>
+                </div>
+                <div class="btn-row">
+                     <div class="create-btn">
+                        <button>Create</button>
+                     </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

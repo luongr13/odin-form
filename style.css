@@ -142,6 +142,10 @@ label {
     margin-left: 0.5em;
 }
 
+.primary-color {
+    color: rgba(228, 179, 98, 1);
+}
+
 .center {
     text-align: center;
 }

@@ -1,0 +1,5 @@
+1. Validate password
+    a. Password criteria
+    b. Passwords should match
+    
+2. Style validation
